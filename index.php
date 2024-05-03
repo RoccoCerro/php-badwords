@@ -6,6 +6,16 @@
   <title>BadWords</title>
 </head>
 <body>
-  <h1>hello world</h1>
+  <form action="">
+    <p>
+      <label for="message">Paragrafo</label>
+      <textarea type="text" id="message" placeholder="Inserisci un paragrafo"></textarea>
+    </p>
+    <p>
+      <label for="word">Parola da censusare</label>
+      <input type="text" id="word" placeholder="Parola da censurare">
+    </p>
+
+  </form>
 </body>
 </html>
