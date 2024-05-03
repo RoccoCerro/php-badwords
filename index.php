@@ -13,7 +13,7 @@
     </p>
     <p>
       <label for="word">Parola da censusare</label>
-      <input type="text" id="word" placeholder="Parola da censurare">
+      <input type="text" id="word" name="word" placeholder="Parola da censurare">
     </p>
 
     <button>Invia</button>
