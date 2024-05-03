@@ -6,16 +6,17 @@
   <title>BadWords</title>
 </head>
 <body>
-  <form action="">
+  <form action="./server.php">
     <p>
       <label for="message">Paragrafo</label>
-      <textarea type="text" id="message" placeholder="Inserisci un paragrafo"></textarea>
+      <textarea type="text" id="message" name="paragrafo" placeholder="Inserisci un paragrafo"></textarea>
     </p>
     <p>
       <label for="word">Parola da censusare</label>
       <input type="text" id="word" placeholder="Parola da censurare">
     </p>
 
+    <button>Invia</button>
   </form>
 </body>
 </html>
